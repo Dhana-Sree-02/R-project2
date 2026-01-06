@@ -20,7 +20,7 @@ class App extends Component {
         return (
             <div className='app'>
                 <div className='profile'>
-                    <img src="/user.jpg" alt='' />
+                    <img src="./public/user.jpg" alt='' />
                     <div className='info'>
                         <legend className='name'>{data.name}</legend>
                         <legend className='role'>{data.role}</legend>

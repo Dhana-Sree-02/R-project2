@@ -20,7 +20,7 @@ class App extends Component {
         return (
             <div className='app'>
                 <div className='profile'>
-                    <img src="/user.jpg" alt='' />
+                    <img src="/R-project2/user.jpg" alt="User" />
                     <div className='info'>
                         <legend className='name'>{data.name}</legend>
                         <legend className='role'>{data.role}</legend>
